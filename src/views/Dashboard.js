@@ -21,7 +21,7 @@ function Dashboard() {
     <>
       <Container fluid>
         <Row>
-          <Col lg="3" sm="6">
+          <Col lg="6" sm="6">
             <Card className="card-stats">
               <Card.Body>
                 <Row>
@@ -32,8 +32,8 @@ function Dashboard() {
                   </Col>
                   <Col xs="7">
                     <div className="numbers">
-                      <p className="card-category">Number</p>
-                      <Card.Title as="h4">150GB</Card.Title>
+                      <p className="card-category">Total No. of users</p>
+                      <Card.Title as="h4">150</Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -47,7 +47,7 @@ function Dashboard() {
               </Card.Footer>
             </Card>
           </Col>
-          <Col lg="3" sm="6">
+          <Col lg="6" sm="6">
             <Card className="card-stats">
               <Card.Body>
                 <Row>
@@ -58,8 +58,8 @@ function Dashboard() {
                   </Col>
                   <Col xs="7">
                     <div className="numbers">
-                      <p className="card-category">Revenue</p>
-                      <Card.Title as="h4">$ 1,345</Card.Title>
+                      <p className="card-category">Total No. of Questions</p>
+                      <Card.Title as="h4">1,345</Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -73,7 +73,7 @@ function Dashboard() {
               </Card.Footer>
             </Card>
           </Col>
-          <Col lg="3" sm="6">
+          {/* <Col lg="3" sm="6">
             <Card className="card-stats">
               <Card.Body>
                 <Row>
@@ -124,13 +124,13 @@ function Dashboard() {
                 </div>
               </Card.Footer>
             </Card>
-          </Col>
+          </Col> */}
         </Row>
         <Row>
           <Col md="8">
             <Card>
               <Card.Header>
-                <Card.Title as="h4">Users Behavior</Card.Title>
+                <Card.Title as="h4">Questions Posted</Card.Title>
                 <p className="card-category">24 Hours performance</p>
               </Card.Header>
               <Card.Body>
@@ -203,7 +203,7 @@ function Dashboard() {
           <Col md="4">
             <Card>
               <Card.Header>
-                <Card.Title as="h4">Email Statistics</Card.Title>
+                <Card.Title as="h4">User Statistics</Card.Title>
                 <p className="card-category">Last Campaign Performance</p>
               </Card.Header>
               <Card.Body>
@@ -234,7 +234,7 @@ function Dashboard() {
             </Card>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Col md="12">
             <Card>
               <Card.Header>
@@ -328,7 +328,7 @@ function Dashboard() {
               </Card.Footer>
             </Card>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </>
   );
